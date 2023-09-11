@@ -1,24 +1,38 @@
-* {
+/* "*" Significa todo mundo, todos os itens*/ 
+
+.titulo {
+    font-family: 'Pokemon Solid', sans-serif;
+    color:#fff;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3rem;
+}
+*{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
 body {
-    background-color: #f6f8fc;
+   
+    background-image:url("/assets/img/5137894.jpg");
+    background-attachment:fixed;
+    background-position: left;
+    
+    
 }
+
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width:992px) {
     .content {
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
-}
+ }
